@@ -7,5 +7,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
+//target. type is for class level
 public @interface PropagateSelectedAnnotation {
 }
